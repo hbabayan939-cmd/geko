@@ -1,0 +1,136 @@
+.cube1 {
+    margin: 10px;
+    padding: 10px;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: static;
+    top: 50px;
+    left: 50px;
+}
+.cube2 {
+    margin: 10px;
+    padding: 10px;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: static;
+    top: 100px;
+    left: 100px;
+}
+.cube3 {
+    margin: 10px;
+    padding: 10px;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-color: green;
+    top: 0px;
+    left: 150px;
+}
+.cube4 {
+    margin: 10px;
+    padding: 10px;
+    width: 95px;
+    height: 90px;
+    position: absolute;
+    border-color: black;
+    border-style: solid;
+    border-width: 5px;
+    top: 130px;
+    left: 150px;
+}
+.yellow-circle {
+    margin: 0px;
+    padding: 0px;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    border-color: yellow;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 50%;
+    top: 170px;
+    left: 190px;
+}
+.box1 {
+    margin: 0px;
+    padding: 10px;
+    width: 170px;
+    height: 50px;
+    border-style: solid;
+    border-color: green;
+    position: static;
+    top: 50px;
+    left: 50px;
+}
+.box2 {
+    margin: 0px;
+    padding: 10px;
+    width: 60px;
+    height: 150px;
+    border-style: solid;
+    border-color: black;
+    position: static;
+    top: 100px;
+    left: 100px;
+}
+.box3 {
+    margin: 0px;
+    padding: 10px;
+    width: 95px;
+    height: 170px;
+    border-style: solid;
+    border-color: red;
+    position: relative;
+    top: -250px;
+    left: 195px;
+    box-sizing: border-box;
+}
+.box4 {
+    margin: 0px;
+    padding: 0px;
+    width: 200px;
+    height: 75px;
+    border-style: solid;
+    border-color: blue;
+    position: relative;
+    top: -250px;
+    left: 85px;
+}
+.box5 {
+    margin: 10px;
+    padding: 10px;
+    width: 85px;
+    height: 72px;
+    border-style: solid;
+    border-color: yellow;
+    position: relative;
+    top: -437px;
+    right: -74px;
+}
+.arrow{
+  position: relative;
+  width: 200px;
+  aspect-ratio: 1;
+  margin: 10px;
+  top: -250px;
+}
+.body{
+  position: relative;
+  width: 80px;
+  height: 140px;
+  background: green;
+  left: 50%;
+  translate: -50% 0;
+  bottom: 0;
+}
+.head{
+  position:relative;
+  width: 10;
+  height: 10px;
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  border-bottom: 120px solid green;
+  top: 0;
+}
