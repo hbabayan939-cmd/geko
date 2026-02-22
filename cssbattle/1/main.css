@@ -1,0 +1,15 @@
+  .box1 {
+      margin-top: -0px;
+      margin-left: -10px;
+      width: 200px;
+      height: 200px;
+      background-color: #b5e0ba;
+      position: absolute;
+    }
+    .box2 {
+      width: 400px;
+      height: 300px;
+      margin-top: -2%;
+      margin-left: -8px;
+      background-color: #5d3a3a;
+    }
