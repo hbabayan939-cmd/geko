@@ -1,0 +1,55 @@
+.main-title {
+    text-align: center;
+    font-size: 36px;
+    font-family: Arial, sans-serif;
+    text-transform: uppercase;
+}
+.selection-title {
+    text-align: center;
+    font-size: 24px;
+    letter-spacing: 2px;
+    font-family: Georgia, serif;
+}
+.text-one {
+    text-align: justify;
+    font-size: 18px;
+    line-height: 1.8;
+    font-family: 'Times New Roman', serif;
+}
+.text-two {
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 900;
+    letter-spacing: 6px;
+}
+.text-three {
+    font-size: 20px;
+    letter-spacing: 3px;
+    text-align: right;
+    text-transform: capitalize;
+}
+.main-link {
+    font-size: 18px;
+    font-family: Verdana, sans-serif;
+    text-decoration: double underline;
+    font-weight: bold;
+}
+.pre-text {
+    white-space: pre-wrap;
+}
+.box {
+    width: 100%;
+    height: 100px;
+}
+.box-one {
+    background-color: lightgreen;
+}
+.box-two {
+    background-image: url(https://media.istockphoto.com/id/1317323736/photo/a-view-up-into-the-trees-direction-sky.jpg?s=612x612&w=0&k=20&c=i4HYO7xhao7CkGy7Zc_8XSNX_iqG0vAwNsrH1ERmw2Q=);
+    background-size: cover;
+    background-position: center;
+}
+.box-three {
+    background-image: url(https://static.toiimg.com/thumb/msid-53891743,width-748,height-499,resizemode=4,imgsize-152022/.jpg);
+    background-position: fixed;
+}
