@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: #272727;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: repeat(5, 100px);
+    gap: 10px;
+    grid-template-areas:
+    "ac plusminus percent divide"
+    "seven eight nine multiply"
+    "four five six minus"
+    "one two three plus"
+    "zero zero dot equal";
+}
+.knopka {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+    color: #ffffff;
+}
+.seriy {
+    background: #a5a5a5;
+    color: #000000;
+}
+.oranj { 
+    background: #ff9f0a;
+}
+.sev {
+    background: #333333;
+}
+.ac { 
+    grid-area: ac; 
+}
+.plusminus { 
+    grid-area: plusminus;
+}
+.percent { 
+    grid-area: percent;
+}
+.divide { 
+    grid-area: divide;
+}
+.seven { 
+    grid-area: seven;
+}
+.eight { 
+    grid-area: eight;
+}
+.nine { 
+    grid-area: nine;
+}
+.multiply { 
+    grid-area: multiply;
+}
+.four { 
+    grid-area: four;
+}
+.five { 
+    grid-area: five;
+}
+.six { 
+    grid-area: six;
+}
+.minus { 
+    grid-area: minus;
+}
+.one { 
+    grid-area: one;
+}
+.two { 
+    grid-area: two;
+}
+.three {
+    grid-area: three;
+}
+.plus { 
+    grid-area: plus;
+}
+.zero{
+    grid-area: zero;
+    border-radius: 40px;
+}
+.dot { 
+    grid-area: dot;
+}
+.equal { 
+    grid-area: equal;
+}
